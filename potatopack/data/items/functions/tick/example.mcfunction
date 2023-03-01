@@ -1,0 +1,1 @@
+#this would be where a function for an item would go, running from the game loop functions at whatever hz is relevant
