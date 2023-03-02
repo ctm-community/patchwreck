@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "nbt": "{vertagen_clockwork_repeater:1}",
+        "enchantments": [
+          {
+            "enchantment": "minecraft:sharpness",
+            "levels": 11
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+   "pack": {
+     "pack_format": 10,
+     "description": "Simple sword that changes damage in the range of 5-9 everytime you hit an enemy. It goes back down to 5 when you hit an enemy while at 9. Average of 7(mid to late game)"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity"
+      }
+    },
+    "rewards": {
+      "function": "vertagen_repeater:change_damage"
+    }
+}

@@ -1,0 +1,1 @@
+scoreboard objectives add take_damage minecraft.custom:minecraft.damage_taken

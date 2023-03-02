@@ -1,0 +1,1 @@
+give @p golden_sword{display:{Name:'{"text":"Clockwork Repeater","color":"gold","bold":true}',Lore:['{"text":"You can hear the gears turning","color":"light_purple"}']},RepairCost:50,Unbreakable:1b,vertagen_clockwork_repeater:1,Enchantments:[{id:"minecraft:sharpness",lvl:1s}]} 1
