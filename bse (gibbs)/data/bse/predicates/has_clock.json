@@ -2,12 +2,17 @@
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"equipment": {
-			"mainhand": {
-				"items": [
-					"minecraft:clock"
-				]
-			}
+	  "type_specific": {
+		"type": "player",
+		"gamemode": "creative"
+	  },
+	  "equipment": {
+		"mainhand": {
+		  "items": [
+			"minecraft:clock"
+		  ]
 		}
+	  }
 	}
-}
+  }
+  

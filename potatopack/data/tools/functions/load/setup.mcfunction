@@ -16,6 +16,10 @@ scoreboard objectives add music dummy
 scoreboard objectives add area dummy
 scoreboard objectives add sincedeath minecraft.custom:minecraft.time_since_death
 scoreboard objectives add kelp minecraft.used:minecraft.dried_kelp
+scoreboard objectives add BruteForce dummy
+scoreboard objectives add BruteCharge dummy
+scoreboard objectives add GravityBoots dummy
+scoreboard objectives add Sneak minecraft.custom:sneak_time
 
 #set any needed scores
 scoreboard players reset dummyhp

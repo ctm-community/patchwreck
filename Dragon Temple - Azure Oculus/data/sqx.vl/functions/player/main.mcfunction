@@ -1,5 +1,5 @@
 # Passive Effect
-execute unless score $sealed vl.var matches 1 if score @s vl.eq matches 1.. run effect give @a[distance=..8] wither 1 0 true
+execute unless score $sealed vl.var matches 1 if score @s vl.eq matches 1.. if score 1hz gremloop matches 2 run effect give @a[distance=..8] wither 2 1 true
 
 # Cooldown Expiry
 execute if data storage ao:player curr.Inventory[{"id":"minecraft:heart_of_the_sea","tag":{voidLocusCD:1b}}] if score $cd vl.var matches 1 run function sqx.vl:item/end_cd

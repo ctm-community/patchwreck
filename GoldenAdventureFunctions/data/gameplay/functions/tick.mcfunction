@@ -5,3 +5,4 @@ execute if score dummy BruteCharge matches 1 run title @p actionbar {"text":"Mec
 execute as @a if score @s Sneak matches 1.. run scoreboard players set @s Sneak 0
 execute as @a if data entity @s Inventory[{Slot:100b}].tag.GravityBoots if score @s GravityBoots matches 1.. run effect give @s levitation 1 1
 execute as @a if score @s GravityBoots matches 1.. run scoreboard players set @s GravityBoots 0
+ 

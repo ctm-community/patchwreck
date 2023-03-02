@@ -1,6 +1,7 @@
 scoreboard players remove @a[scores={summoning_horn_cd=1..}] summoning_horn_cd 1
+scoreboard players add @a summoning_horn_cd 0
 scoreboard players add @e[tag=Summoned] summoned_age 1
-kill @e[tag=Summoned,scores={summoned_age=400..}]
+kill @e[tag=Summoned,scores={summoned_age=800..}]
 title @a[scores={summoning_horn_cd=1}] actionbar {"text":"The horn ability is ready","color":"gold"}
 execute at @e[type=llama_spit] run particle falling_water ~ ~ ~ 0.25 0.25 0.25 4 25
 
