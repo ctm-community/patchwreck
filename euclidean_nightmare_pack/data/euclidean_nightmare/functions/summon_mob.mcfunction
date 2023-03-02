@@ -1,0 +1,1 @@
+summon creeper ~2 ~ ~2 {PersistenceRequired:1b,Health:40f,CustomName:'{"text":"Euclidean Nightmare","color":"dark_red","bold":true,"italic":false}',ExplosionRadius:0b,ActiveEffects:[{Id:26,Amplifier:34b,Duration:1999980,ShowParticles:0b}]}

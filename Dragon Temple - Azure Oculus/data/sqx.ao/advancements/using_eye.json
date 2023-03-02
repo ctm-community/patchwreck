@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "use_eye": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{azureOculus:1b}",
+                    "items": ["ender_eye"]
+                }
+            }
+        }
+    },
+    "rewards": {"function": "sqx.ao:player/charge"}
+}

@@ -1,0 +1,3 @@
+#> endscape:items/gravplate_leggings
+
+give @s minecraft:iron_leggings{display:{Name:'{"text":"Gravplate Leggings","color":"#2667FF","italic":false}',Lore:['{"text":"Unbreakable","color":"gray","italic":false}','{"text":" "}','{"text":"Grants reduced gravity and void","color":"white","italic":true}','{"text":"protection when equipped.","color":"white","italic":true}','{"text":" "}','{"text":"When on Legs:","color":"gray","italic":false}','{"text":"+5 Armor","color":"blue","italic":false}']},HideFlags:6,RepairCost:50,Unbreakable:1b,endscape.gravplate_leggings:1b,Enchantments:[{id:"minecraft:protection",lvl:3s},{id:"minecraft:swift_sneak",lvl:2s}]} 1

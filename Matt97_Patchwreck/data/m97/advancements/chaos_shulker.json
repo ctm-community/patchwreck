@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [],
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:shulker_bullet",
+              "nbt": "{Tags:[\"m97_chaos_shulker\",\"m97_shulkerbullet\"]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "m97:chaos_shulker/attack"
+  }
+}

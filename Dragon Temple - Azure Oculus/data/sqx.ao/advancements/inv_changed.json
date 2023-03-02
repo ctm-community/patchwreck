@@ -1,0 +1,4 @@
+{
+    "criteria": {"change_inv": {"trigger": "inventory_changed"}},
+    "rewards": {"function": "sqx.ao:inv_changed"}
+}

@@ -1,0 +1,4 @@
+clear @s ender_eye{voidLocus:1b}
+kill @e[type=item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:ender_eye",tag:{voidLocus:1b}}}]
+
+summon item ~ ~ ~ {Age:-32768,Health:1000,PickupDelay:0,Tags:["ao.cd_item"],Item:{id:"minecraft:heart_of_the_sea",Count:1b,tag:{display:{Name:'[{"text":"∮ ","color":"#57297A","bold":true,"italic":false},{"text":"Void Locus ","color":"#5F4CAD","bold":false,"italic":false},{"text":"∮","color":"#57297A","bold":true,"italic":false}]',Lore:['{"text":" "}','{"text":"The eye slumbers, recharging","color":"#707070","italic":false}','{"text":"from the ley lines.","color":"#707070","italic":false}']},voidLocusCD:1b}}}

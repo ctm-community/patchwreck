@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "use_eye": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{voidLocus:1b}",
+                    "items": ["ender_eye"]
+                }
+            }
+        }
+    },
+    "rewards": {"function": "sqx.vl:player/charge"}
+}

@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:area_effect_cloud,nbt={Effects:[{Id:26,Amplifier:34b}]}] at @s run function euclidean_nightmare:boom
