@@ -21,6 +21,26 @@ scoreboard objectives add BruteCharge dummy
 scoreboard objectives add GravityBoots dummy
 scoreboard objectives add Sneak minecraft.custom:sneak_time
 
+#dimension setup
+gamerule doFireTick false
+gamerule randomTickSpeed 0
+weather clear 1000000
+execute in dim:aztec run gamerule doFireTick false
+execute in dim:aztec run gamerule randomTickSpeed 0
+execute in dim:aztec run weather rain 1000000
+execute in dim:steampunk run gamerule doFireTick false
+execute in dim:steampunk run gamerule randomTickSpeed 0
+execute in dim:steampunk run weather clear 1000000
+execute in dim:surreal run gamerule doFireTick false
+execute in dim:surreal run gamerule randomTickSpeed 0
+execute in dim:surreal run weather clear 1000000
+execute in dim:temple run gamerule doFireTick false
+execute in dim:temple run gamerule randomTickSpeed 0
+execute in dim:temple run weather clear 1000000
+execute in dim:wonderland run gamerule doFireTick false
+execute in dim:wonderland run gamerule randomTickSpeed 0
+execute in dim:wonderland run weather clear 1000000
+
 #set any needed scores
 scoreboard players reset dummyhp
 scoreboard players add @a area 0
