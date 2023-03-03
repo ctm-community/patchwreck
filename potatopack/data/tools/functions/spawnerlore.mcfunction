@@ -148,7 +148,7 @@ execute unless score mainhand temp matches 2..3 run data modify block 7777 60 77
 execute unless score mainhand temp matches 2..3 run data modify block 7777 60 7777 Items[0].tag.display.Lore[3] set from block 7777 61 7777 Text2
 execute unless score mainhand temp matches 2..3 run data modify block 7777 60 7777 Items[0].tag.display.Lore[4] set from block 7777 61 7777 Text4
 setblock 7777 61 7777 air
-setblock 7777 61 7777 oak_sign{Text1:'[{"text":"Health ❤ ","color":"dark_purple","italic":false},{"nbt":"Items[0].tag.BlockEntityTag.SpawnData.entity.Attributes[{Name:\\"generic.max_health\\"}].Base","block":"7777 60 7777","interpret":true,"color":"green"},{"text":" | Damage ⚔ "},{"nbt":"Items[0].tag.BlockEntityTag.SpawnData.entity.Attributes[{Name:\\"generic.attack_damage\\"}].Base","block":"7777 60 7777","interpret":true,"color":"red"}]'} destroy
+setblock 7777 61 7777 oak_sign{Text1:'[{"text":"Health ❤ ","color":"dark_purple","italic":false},{"nbt":"Items[0].tag.BlockEntityTag.SpawnData.entity.Attributes[{Name:\\"generic.max_health\\"}].Base","block":"7777 60 7777","interpret":false,"color":"green"},{"text":" | Damage ⚔ "},{"nbt":"Items[0].tag.BlockEntityTag.SpawnData.entity.Attributes[{Name:\\"generic.attack_damage\\"}].Base","block":"7777 60 7777","interpret":false,"color":"red"}]'} destroy
 execute unless score mainhand temp matches 2..3 run data modify block 7777 60 7777 Items[0].tag.display.Lore[5] set from block 7777 61 7777 Text1
 
 

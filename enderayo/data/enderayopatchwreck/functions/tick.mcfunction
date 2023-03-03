@@ -10,3 +10,5 @@ execute as @e[type=spider,tag=centispawn] at @s run function enderayopatchwreck:
 execute as @a if entity @s[nbt={Inventory:[{tag:{Hidden:1b}}]}] at @s run function enderayopatchwreck:hidden
 
 execute as @e[type=pillager,tag=charged,nbt={AbsorptionAmount:0f}] at @s run function enderayopatchwreck:highvoltage
+#arrow balancing
+execute as @e[type=pillager,name=Mad-Mechanist] at @s positioned ~ ~1.5 ~ as @e[distance=..4,type=arrow,tag=!arrowchecked] as @s[nbt=!{Player:1b}] run data merge entity @s {damage:1.2d,Tags:["arrowchecked"]}

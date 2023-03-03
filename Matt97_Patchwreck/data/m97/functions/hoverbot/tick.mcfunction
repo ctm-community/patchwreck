@@ -1,4 +1,5 @@
-
+#arrow balancing, link2012 as with all mob balancing
+execute positioned ~ ~1.5 ~ as @e[distance=..4,type=arrow,tag=!arrowchecked] as @s[nbt=!{Player:1b}] run data merge entity @s {damage:1.9d,Tags:["arrowchecked"]}
 
 
 execute at @s[type=bee] anchored eyes run particle minecraft:large_smoke ~ ~0.5 ~ 0 -1 0 0.2 0 force
