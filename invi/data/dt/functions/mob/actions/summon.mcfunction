@@ -14,7 +14,7 @@ execute as @s[scores={.inviDTPhase.=0}] run summon zombie ~ ~ ~ {DeathLootTable:
 execute as @s[scores={.inviDTPhase.=1}] run summon skeleton ~ ~ ~ {DeathLootTable:"none",HandItems:[{id:"minecraft:bow",Count:1},{}],HandDropChances:[0,0],Tags:["invi-summoned"]}
 execute as @s[scores={.inviDTPhase.=2}] run summon spider ~ ~ ~ {DeathLootTable:"none",Tags:["invi-summoned"]}
 execute as @s[scores={.inviDTPhase.=3}] run summon silverfish ~ ~ ~ {DeathLootTable:"none",Tags:["invi-summoned"]}
-execute as @s[scores={.inviDTPhase.=4}] run summon phantom ~ ~ ~ {DeathLootTable:"none",Tags:["invi-summoned"],Health:10}
+execute as @s[scores={.inviDTPhase.=4}] run summon phantom ~ ~ ~ {DeathLootTable:"none",Tags:["invi-summoned"],Health:5}
 execute as @s[scores={.inviDTPhase.=5}] run summon blaze ~ ~ ~ {DeathLootTable:"none",Tags:["invi-summoned"],Health:10}
 
 data modify entity @e[tag=invi-summoned,limit=1,sort=nearest] Motion set from entity @s Motion

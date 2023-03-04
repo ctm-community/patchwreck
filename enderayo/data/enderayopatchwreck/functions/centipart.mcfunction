@@ -13,7 +13,7 @@ execute if entity @s[tag=headless] run tag @s add centihead
 execute if entity @s[tag=headless] run tag @s remove centipart0
 execute if entity @s[tag=headless] run tag @s remove centipart
 execute if entity @s[tag=headless] run data modify entity @s CustomNameVisible set value 1b
-execute if entity @s[tag=headless] run data modify entity @s CustomName set value '{"text":"centipede"}'
+execute if entity @s[tag=headless] run data modify entity @s CustomName set value '{"text":"Centipede"}'
 execute if entity @s[tag=headless] run data modify entity @s Invulnerable set value 0b
 execute if entity @s[tag=headless] run data modify entity @s NoAI set value 0b
 execute if entity @s[tag=headless] as @e[tag=centipart1,tag=this] run tag @s add centipart0
