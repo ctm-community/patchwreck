@@ -11,7 +11,4 @@ execute at 5458bbd8-5458-bbd8-5458-bbd85458bbd8 run teleport @s ~ ~ ~
 kill 5458bbd8-5458-bbd8-5458-bbd85458bbd8
 
 execute at @s run playsound minecraft:item.chorus_fruit.teleport player @a ~ ~ ~ 1 1.2
-
-# Delay void damage to fix audio bug
 scoreboard players set @s patchwreck.void_trigger -1
-schedule function patchwreck:void/damage 2t replace
