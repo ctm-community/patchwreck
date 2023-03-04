@@ -15,5 +15,3 @@ scoreboard players set $static endscape.ymotion 0
 
 team add ender_cultist
 team modify ender_cultist color dark_gray
-
-tellraw @a[gamemode=creative] "Endscape reloaded!"

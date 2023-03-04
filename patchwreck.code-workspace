@@ -45,16 +45,12 @@
             "name": "Patchwreck Cooley"
         },
         {
-            "path": "./patchwreckdim",
-            "name": "Patchwreck Dimensions"
-        },
-        {
             "path": "./potatopack",
             "name": "Potatopack"
         },
         {
-            "path": "./patchutil",
-            "name": "Patchutil"
+            "path": "./patchwreck",
+            "name": "Patchwreck"
         },
         {
             "path": "./speedy attacks (gibbs)",
@@ -98,10 +94,10 @@
             "invi": true,
             "Matt97_Patchwreck": true,
             "motion (suso & cooley)": true,
+            "patchwreck": true,
             "patchwreck cooley": true,
             "patchwreckdim": true,
             "potatopack": true,
-            "patchutil": true,
             "speedy attacks (gibbs)": true,
             "spotweakness": true,
             "vertagen": true
