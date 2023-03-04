@@ -10,5 +10,9 @@ execute if score 10hz gremloop matches 1 run particle minecraft:soul_fire_flame 
 
 #lobby effects
 effect give @a[distance=..30] resistance 10 4 true
-effect give @a[distance=..30] weakness 10 9 true
+effect give @a[distance=..30] strength 10 0 true
 effect give @a[distance=..30] saturation 200 0 true
+
+#sheep effects
+effect give @s invisibility 100000 0 true
+effect give @s regeneration 100000 9 true
