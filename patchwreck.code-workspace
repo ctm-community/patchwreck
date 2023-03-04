@@ -1,0 +1,116 @@
+{
+    "folders": [
+        {
+            "path": "./Dragon Temple - Azure Oculus",
+            "name": "Azure Oculus"
+        },
+        {
+            "path": "./broken_clock_pack",
+            "name": "Broken Clock Pack"
+        },
+        {
+            "path": "./ehid (gibbs)",
+            "name": "EHID (gibbs)"
+        },
+        {
+            "path": "./enderayo",
+            "name": "Enderayo"
+        },
+        {
+            "path": "./endscape",
+            "name": "Endscape"
+        },
+        {
+            "path": "./euclidean_nightmare_pack",
+            "name": "Euclidean Nightmare Pack"
+        },
+        {
+            "path": "./GoldenAdventureFunctions",
+            "name": "Golden Adventure Functions"
+        },
+        {
+            "path": "./invi",
+            "name": "Invi"
+        },
+        {
+            "path": "./Matt97_Patchwreck",
+            "name": "Matt97 Patchwreck"
+        },
+        {
+            "path": "./motion (suso & cooley)",
+            "name": "Motion (suso & cooley)"
+        },
+        {
+            "path": "./patchwreck cooley",
+            "name": "Patchwreck Cooley"
+        },
+        {
+            "path": "./patchwreckdim",
+            "name": "Patchwreck Dimensions"
+        },
+        {
+            "path": "./potatopack",
+            "name": "Potatopack"
+        },
+        {
+            "path": "./patchutil",
+            "name": "Patchutil"
+        },
+        {
+            "path": "./speedy attacks (gibbs)",
+            "name": "Speedy Attacks (gibbs)"
+        },
+        {
+            "path": "./spotweakness",
+            "name": "Spot Weakness"
+        },
+        {
+            "path": "./vertagen",
+            "name": "Vertagen"
+        },
+        {
+            "path": ".",
+            "name": "Workspace"
+        }
+    ],
+    "settings": {
+        "[json]": {
+            "editor.detectIndentation": false,
+            "editor.insertSpaces": true,
+            "editor.quickSuggestions": {
+                "strings": true
+            },
+            "editor.suggest.insertMode": "replace",
+            "editor.semanticHighlighting.enabled": true,
+            "editor.tabSize": 2
+        },
+        "datapack.env.cmdVersion": "1.19",
+        "datapack.env.dataVersion": "1.19.3",
+        "editor.formatOnSave": true,
+        "files.exclude": {
+            "broken_clock_pack": true,
+            "Dragon Temple - Azure Oculus": true,
+            "ehid (gibbs)": true,
+            "enderayo": true,
+            "endscape": true,
+            "euclidean_nightmare_pack": true,
+            "GoldenAdventureFunctions": true,
+            "invi": true,
+            "Matt97_Patchwreck": true,
+            "motion (suso & cooley)": true,
+            "patchwreck cooley": true,
+            "patchwreckdim": true,
+            "potatopack": true,
+            "patchutil": true,
+            "speedy attacks (gibbs)": true,
+            "spotweakness": true,
+            "vertagen": true
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "arcensoth.language-mcfunction",
+            "SPGoding.datapack-language-server"
+        ]
+    }
+}

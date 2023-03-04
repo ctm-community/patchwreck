@@ -1,0 +1,121 @@
+{
+  "item": "warped_fungus_on_a_stick",
+  "display": {
+    "Name": {
+      "text": "Staff of Flames",
+      "color": "yellow",
+      "italic": false
+    },
+    "Lore": [
+      {
+        "text": "Rare",
+        "color": "dark_gray",
+        "italic": false
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "-Imbued Spells-",
+        "color": "dark_aqua",
+        "italic": false
+      },
+      {
+        "text": "[1] Fire Lance",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "[2] Fire Domain",
+        "color": "dark_gray",
+        "italic": false
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "-Fire Lance-",
+        "color": "#FFB452",
+        "italic": false
+      },
+      {
+        "text": "A burst of mana that ignites and",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "slows enemies it passes through.",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "Cast fails if there is not enough",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "space in front of the player.",
+        "color": "white",
+        "italic": false
+      },
+      [
+        {
+          "translate": "effect.minecraft.bad_omen",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": " (0:05)"
+        }
+      ],
+      {
+        "text": " "
+      },
+      {
+        "text": "When in Main Hand:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "◆0 Spell Damage",
+        "color": "dark_gray",
+        "italic": false
+      },
+      {
+        "text": "+4 Spell Range",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "When Used:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "-2 Soul",
+        "color": "red",
+        "italic": false
+      }
+    ]
+  },
+  "HideFlags": 4,
+  "RepairCost": 1024,
+  "Damage": 0,
+  "CustomModelData": 1120001,
+  "FireLance": "1b",
+  "StaffOfFlames": "1b",
+  "Toggleable": "1b",
+  "Enchantments": [
+    {
+      "id": "minecraft:knockback",
+      "lvl": "1s"
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": "5s"
+    }
+  ]
+}
