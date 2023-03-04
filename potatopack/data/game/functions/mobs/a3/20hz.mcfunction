@@ -3,7 +3,7 @@
 
 #functions
 execute if entity @s[tag=difficulty,nbt={HurtTime:10s}] run function game:difficulty
-execute if entity @s[tag=difficulty,nbt={HurtTime:10s}] run function game:start
+execute if entity @s[tag=start,nbt={HurtTime:10s}] run function game:start
 
 #particles
 execute if score 10hz gremloop matches 1 run particle minecraft:soul_fire_flame ~ ~0.5 ~ 0.3 0.3 0.3 0 1 force
