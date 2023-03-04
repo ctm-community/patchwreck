@@ -21,6 +21,8 @@ scoreboard objectives add BruteCharge dummy
 scoreboard objectives add GravityBoots dummy
 scoreboard objectives add Sneak minecraft.custom:sneak_time
 scoreboard objectives add dark dummy
+setworldspawn 1000 48 1011
+gamerule spawnRadius 1
 
 #dimension setup
 gamerule doFireTick false
