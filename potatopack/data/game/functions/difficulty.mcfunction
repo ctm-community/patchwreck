@@ -1,7 +1,7 @@
 #Lobby setting when difficulty is hit
 
 #general stuff
-particle dust 1.000 0.208 0.122 1 ~ ~ ~ 0.4 0.4 0.4 1 40 normal
+particle dust 1.000 0.208 0.122 1 ~ ~0.3 ~ 0.4 0.4 0.4 1 40 normal
 
 #alternates 0-2
 scoreboard players add difficulty game 1

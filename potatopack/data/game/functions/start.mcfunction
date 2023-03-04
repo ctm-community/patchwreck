@@ -1,4 +1,5 @@
 #when the game starts
+gamemode survival @a[distance=..50]
 tp @a 128 12 -15
 effect give @a slow_falling 5 9 true
 effect give @a invisibility 5 9 true
