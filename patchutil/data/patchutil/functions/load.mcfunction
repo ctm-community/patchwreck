@@ -2,6 +2,7 @@
 #define tag patchutil.spawn_return
 
 # Initialize Scoreboard Objectives
+scoreboard objectives add patchutil.timers dummy
 scoreboard objectives add player.void_trigger dummy
 scoreboard objectives add player.void_return_x dummy
 scoreboard objectives add player.void_return_y dummy
