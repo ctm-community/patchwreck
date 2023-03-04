@@ -6,7 +6,20 @@
     "sky_color": 4418373,
     "fog_color": 12638463,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "ambient_sound": "minecraft:music_disc.cat",
+    "mood_sound": {
+      "sound": "minecraft:weather.rain.above",
+      "tick_delay": 20,
+      "block_search_extent": 0,
+      "offset": 0
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:falling_water"
+      },
+      "probability": 0.05
+    }
   },
   "spawners": {},
   "spawn_costs": {},

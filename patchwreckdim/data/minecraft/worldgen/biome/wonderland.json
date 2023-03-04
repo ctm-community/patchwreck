@@ -3,10 +3,17 @@
   "downfall": 0.4,
   "precipitation": "rain",
   "effects": {
-    "sky_color": 9724833,
+    "sky_color": 14239166,
     "fog_color": 12638463,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "ambient_sound": "minecraft:music_disc.wait",
+    "particle": {
+      "options": {
+        "type": "minecraft:firework"
+      },
+      "probability": 0.002
+    }
   },
   "spawners": {},
   "spawn_costs": {},

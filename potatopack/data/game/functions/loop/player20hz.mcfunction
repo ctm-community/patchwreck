@@ -6,3 +6,5 @@
 #Item branch
 execute as @s[advancements={items:invchange=true}] run function items:invchange
 advancement revoke @s[advancements={items:invchange=true}] only items:invchange
+
+#What
