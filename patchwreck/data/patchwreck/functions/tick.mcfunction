@@ -10,6 +10,10 @@ scoreboard players set @a patchwreck.dead 0
 # Save loyalty tridents from the void
 execute as @e[type=minecraft:trident,predicate=patchwreck:loyal] run data modify entity @s DealtDamage set value 1b
 
+# Curse Zuma murders
+execute as @a at @s if score @s patchwreck.zumamurder matches 1.. if biome ~ ~ ~ minecraft:aztec run function patchwreck:zumamurder
+scoreboard players set @a patchwreck.zumamurder 0
+
 # Run ticking functions
 function patchwreck:monument/tick
 function patchwreck:teleport/tick

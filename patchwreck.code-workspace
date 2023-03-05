@@ -80,7 +80,7 @@
             "editor.semanticHighlighting.enabled": true,
             "editor.tabSize": 2
         },
-        "datapack.env.cmdVersion": "1.19",
+        "datapack.env.cmdVersion": "1.19.3",
         "datapack.env.dataVersion": "1.19.3",
         "editor.formatOnSave": true,
         "files.exclude": {

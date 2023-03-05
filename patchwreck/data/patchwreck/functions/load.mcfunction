@@ -9,6 +9,7 @@ scoreboard objectives add patchwreck.void_trigger dummy
 scoreboard objectives add patchwreck.void_return_x dummy
 scoreboard objectives add patchwreck.void_return_y dummy
 scoreboard objectives add patchwreck.void_return_z dummy
+scoreboard objectives add patchwreck.zumamurder minecraft.killed:minecraft.frog
 
 scoreboard players add aztec patchwreck.monument 0
 scoreboard players add steampunk patchwreck.monument 0
