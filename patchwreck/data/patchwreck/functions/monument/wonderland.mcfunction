@@ -6,4 +6,4 @@ summon minecraft:magma_cube 134 -0.01 -6 {UUID: [I; 10101, 10101, 10101, 10101],
 function patchwreck:monument/fireworks/wonderland
 
 title @a title {"text":""}
-title @a subtitle {"text":"※ Steampunk Portal Unocked ※", "color": "gold"}
+title @a subtitle {"text":"※ Steampunk Portal Unlocked ※", "color": "gold"}

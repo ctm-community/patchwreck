@@ -1,7 +1,6 @@
 #> patchwreck:teleport/wonderland
 
 execute in patchwreck:wonderland run teleport @s -139 87 -211 -45 0
-execute in patchwreck:wonderland run spawnpoint @s -139 87 -211
 
 execute at @s run playsound minecraft:block.portal.travel ambient @s ~ ~ ~ 0.3 2
 

@@ -1,7 +1,6 @@
 #> patchwreck:teleport/steampunk
 
 execute in patchwreck:steampunk run teleport @s -169 12 -183 0 0
-execute in patchwreck:steampunk run spawnpoint @s -169 12 -183
 
 execute at @s run playsound minecraft:block.portal.travel ambient @s ~ ~ ~ 0.3 2
 

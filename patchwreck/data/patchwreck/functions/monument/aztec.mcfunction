@@ -6,4 +6,4 @@ summon minecraft:magma_cube 134 -0.01 -14 {UUID: [I; 40404, 40404, 40404, 40404]
 function patchwreck:monument/fireworks/aztec
 
 title @a title {"text":""}
-title @a subtitle {"text":"※ Surreal Architecture Portal Unocked ※", "color": "white"}
+title @a subtitle {"text":"※ Surreal Architecture Portal Unlocked ※", "color": "white"}

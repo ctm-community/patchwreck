@@ -1,7 +1,6 @@
 #> patchwreck:teleport/temple
 
 execute in patchwreck:temple run teleport @s 113 33 -257 0 0
-execute in patchwreck:temple run spawnpoint @s 113 33 -257
 
 execute at @s run playsound minecraft:block.portal.travel ambient @s ~ ~ ~ 0.3 2
 

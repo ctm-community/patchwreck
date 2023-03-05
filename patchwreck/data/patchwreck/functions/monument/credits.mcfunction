@@ -1,6 +1,7 @@
 #> patchwreck:monument/credits
 
-execute if score credits patchwreck.timers matches 0 positioned 0 1000 0 run playsound minecraft:music.credits ambient @a ~ ~ ~ 10000 1
+execute if score credits patchwreck.timers matches 0 run stopsound @a * minecraft:music.credits
+execute if score credits patchwreck.timers matches 0 run playsound minecraft:music.credits ambient @a ~ ~ ~ 0.25 1
 
 execute if score credits patchwreck.timers matches 0 run title @a times 20 160 20
 execute if score credits patchwreck.timers matches 0 run title @a title {"text":"Patchwreck Complete","color":"gold"}
@@ -69,5 +70,18 @@ execute if score credits patchwreck.timers matches 1340 run title @a subtitle {"
 execute if score credits patchwreck.timers matches 1360 run title @a subtitle {"text":"samos36"}
 execute if score credits patchwreck.timers matches 1380 run title @a subtitle {"text":"Cooley"}
 execute if score credits patchwreck.timers matches 1400 run title @a subtitle {"text":"ZeyD_"}
+
+execute if score credits patchwreck.timers matches 1460 run title @a times 20 80 20
+execute if score credits patchwreck.timers matches 1460 run title @a title {"text":"※ Compilers ※","color":"white"}
+execute if score credits patchwreck.timers matches 1480 run title @a subtitle {"text":"Counter_Coffee"}
+execute if score credits patchwreck.timers matches 1500 run title @a subtitle {"text":"link2012"}
+execute if score credits patchwreck.timers matches 1520 run title @a subtitle {"text":"Jevex"}
+execute if score credits patchwreck.timers matches 1540 run title @a subtitle {"text":"Coffee_Cake"}
+
+execute if score credits patchwreck.timers matches 1600 run title @a times 20 60 20
+execute if score credits patchwreck.timers matches 1620 run title @a title {"text":"※ Playtesters ※","color":"white"}
+execute if score credits patchwreck.timers matches 1620 run title @a subtitle {"text":"Compsogbrickus"}
+execute if score credits patchwreck.timers matches 1640 run title @a subtitle {"text":"Orian"}
+execute if score credits patchwreck.timers matches 1660 run title @a subtitle {"text":"Sp00xie"}
 
 execute if score credits patchwreck.timers matches 0 run scoreboard players set credits patchwreck.timers 1

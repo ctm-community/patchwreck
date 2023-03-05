@@ -1,10 +1,6 @@
 #when the game starts
 gamemode survival @a[distance=..50]
-tp @a 128 12 -15
-effect give @a slow_falling 5 9 true
-effect give @a invisibility 4 9 true
-spawnpoint @a 130 -1 -20
-scoreboard players reset @a deaths
+execute as @a run function patchwreck:teleport/monument_start
 
 #difficulty failsafe
 execute store result score temp temp run difficulty

@@ -5,7 +5,7 @@ execute if score $4t patchwreck.timers matches 4.. run scoreboard players set $4
 
 # Show credits
 execute if score credits patchwreck.timers matches 1.. run scoreboard players add credits patchwreck.timers 1
-execute if score credits patchwreck.timers matches 1500.. run scoreboard players set credits patchwreck.timers 0
+execute if score credits patchwreck.timers matches 1700.. run scoreboard players set credits patchwreck.timers 0
 
 # Remove objectives from dead players
 execute as @a if score @s patchwreck.dead matches 1.. run clear @s #minecraft:wool{Vanishing: 1b}
