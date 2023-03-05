@@ -28,21 +28,21 @@ gamerule spawnRadius 1
 gamerule doFireTick false
 gamerule randomTickSpeed 0
 weather clear 1000000
-execute in dim:aztec run gamerule doFireTick false
-execute in dim:aztec run gamerule randomTickSpeed 0
-execute in dim:aztec run weather rain 1000000
-execute in dim:steampunk run gamerule doFireTick false
-execute in dim:steampunk run gamerule randomTickSpeed 0
-execute in dim:steampunk run weather clear 1000000
-execute in dim:surreal run gamerule doFireTick false
-execute in dim:surreal run gamerule randomTickSpeed 0
-execute in dim:surreal run weather clear 1000000
-execute in dim:temple run gamerule doFireTick false
-execute in dim:temple run gamerule randomTickSpeed 0
-execute in dim:temple run weather clear 1000000
-execute in dim:wonderland run gamerule doFireTick false
-execute in dim:wonderland run gamerule randomTickSpeed 0
-execute in dim:wonderland run weather clear 1000000
+execute in patchwreck:aztec run gamerule doFireTick false
+execute in patchwreck:aztec run gamerule randomTickSpeed 0
+execute in patchwreck:aztec run weather rain 1000000
+execute in patchwreck:steampunk run gamerule doFireTick false
+execute in patchwreck:steampunk run gamerule randomTickSpeed 0
+execute in patchwreck:steampunk run weather clear 1000000
+execute in patchwreck:surreal run gamerule doFireTick false
+execute in patchwreck:surreal run gamerule randomTickSpeed 0
+execute in patchwreck:surreal run weather clear 1000000
+execute in patchwreck:temple run gamerule doFireTick false
+execute in patchwreck:temple run gamerule randomTickSpeed 0
+execute in patchwreck:temple run weather clear 1000000
+execute in patchwreck:wonderland run gamerule doFireTick false
+execute in patchwreck:wonderland run gamerule randomTickSpeed 0
+execute in patchwreck:wonderland run weather clear 1000000
 
 #set any needed scores
 scoreboard players reset dummyhp
