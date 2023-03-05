@@ -5,7 +5,4 @@ summon minecraft:magma_cube 130 -0.01 -10 {UUID: [I; 50505, 50505, 50505, 50505]
 
 function patchwreck:monument/fireworks/surreal
 
-title @a title {"text":"Patchwreck Complete","color":"gold"}
-title @a subtitle {"text":"Thanks for playing!"}
-
-execute positioned 0 1000 0 run playsound minecraft:music.credits ambient @a ~ ~ ~ 10000 1
+function patchwreck:monument/credits

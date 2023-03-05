@@ -16,6 +16,7 @@ scoreboard players add steampunk patchwreck.monument 0
 scoreboard players add surreal patchwreck.monument 0
 scoreboard players add temple patchwreck.monument 0
 scoreboard players add wonderland patchwreck.monument 0
+scoreboard players add credits patchwreck.timers 0
 
 # Configure Teams for Monument
 team add aztec
