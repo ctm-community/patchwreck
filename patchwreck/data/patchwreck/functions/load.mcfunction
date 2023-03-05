@@ -2,6 +2,7 @@
 #define tag patchwreck.spawn_return
 
 # Initialize Scoreboard Objectives
+scoreboard objectives add patchwreck.dead deathCount
 scoreboard objectives add patchwreck.monument dummy
 scoreboard objectives add patchwreck.timers dummy
 scoreboard objectives add patchwreck.void_trigger dummy
