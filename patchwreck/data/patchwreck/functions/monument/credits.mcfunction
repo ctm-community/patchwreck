@@ -1,7 +1,7 @@
 #> patchwreck:monument/credits
 
 execute if score credits patchwreck.timers matches 0 run stopsound @a * minecraft:music.credits
-execute if score credits patchwreck.timers matches 0 run playsound minecraft:music.credits ambient @a ~ ~ ~ 0.25 1
+execute if score credits patchwreck.timers matches 0 as @a at @s run playsound minecraft:music.credits ambient @s ~ ~ ~ 0.25 1
 
 execute if score credits patchwreck.timers matches 0 run title @a times 20 160 20
 execute if score credits patchwreck.timers matches 0 run title @a title {"text":"Patchwreck Complete","color":"gold"}
