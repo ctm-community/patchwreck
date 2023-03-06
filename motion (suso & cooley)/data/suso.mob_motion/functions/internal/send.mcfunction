@@ -1,3 +1,6 @@
+#link2012fix
+forceload add 1 1 -1 -1
+
 execute positioned 0.0 0.0 0.0 run tp 50502711-0-0-5-0 ^ ^ ^.1
 data modify storage suso:mob_motion SendMotion set from entity 50502711-0-0-5-0 Pos
 

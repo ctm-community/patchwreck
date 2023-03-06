@@ -73,7 +73,7 @@ scoreboard players add out math 0
 gamerule universalAnger true
 gamerule doInsomnia false
 gamerule commandBlockOutput false
-gamerule spectatorsGenerateChunks false
+gamerule spectatorsGenerateChunks true
 gamerule doWardenSpawning false
 gamerule doDaylightCycle false
 

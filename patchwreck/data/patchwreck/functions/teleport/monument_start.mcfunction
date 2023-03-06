@@ -17,7 +17,7 @@ execute if score $4t patchwreck.timers matches 2 in minecraft:overworld run spaw
 execute if score $4t patchwreck.timers matches 3 in minecraft:overworld run teleport @s 132 12 -10
 execute if score $4t patchwreck.timers matches 3 in minecraft:overworld run spawnpoint @s 132 -1 -10
 
-execute at @s run playsound minecraft:block.portal.travel ambient @s ~ ~ ~ 0.3 2
+#execute at @s run playsound minecraft:block.portal.travel ambient @s ~ ~ ~ 0.3 2
 
 scoreboard players set @s patchwreck.void_return_x 130
 scoreboard players set @s patchwreck.void_return_y -1

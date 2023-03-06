@@ -9,7 +9,7 @@ execute if score difficulty game matches 3.. run scoreboard players set difficul
 
 #If 0
 execute if score difficulty game matches 0 run playsound minecraft:entity.cat.ambient ambient @a ~ ~ ~ 1 1
-execute if score difficulty game matches 0 run tellraw @a [{"text":"Difficulty set to ","color":"gray","italic":false},{"text":"low","color":"green"}]
+execute if score difficulty game matches 0 run tellraw @a [{"text":"Difficulty set to ","color":"gray","italic":false},{"text":"easy","color":"green"}]
 execute if score difficulty game matches 0 run difficulty easy
 execute if score difficulty game matches 0 in patchwreck:aztec run difficulty easy
 execute if score difficulty game matches 0 in patchwreck:steampunk run difficulty easy
@@ -33,7 +33,7 @@ execute if score difficulty game matches 1 in patchwreck:wonderland run difficul
 #If 2..
 
 execute if score difficulty game matches 2 run playsound minecraft:entity.wither.ambient ambient @a ~ ~ ~ 1 1
-execute if score difficulty game matches 2 run tellraw @a [{"text":"Difficulty set to ","color":"gray","italic":false},{"text":"high","color":"red"}]
+execute if score difficulty game matches 2 run tellraw @a [{"text":"Difficulty set to ","color":"gray","italic":false},{"text":"hard","color":"red"}]
 execute if score difficulty game matches 2 run difficulty hard
 data merge entity @e[type=armor_stand,limit=1,sort=nearest,distance=..3,tag=area3] {CustomName:'{"text":"Difficulty","color":"red","italic":false}'}
 execute if score difficulty game matches 2 in patchwreck:aztec run difficulty hard

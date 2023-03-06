@@ -15,4 +15,6 @@ execute as @s[scores={temp=9..12}] at @s run tp @s ~ ~-0.05 ~
 scoreboard players set @s[scores={temp=16..}] temp 0
 
 execute as @s[scores={temp=1..}] run kill @e[distance=..10,type=armor_stand,tag=men]
-execute as @s[scores={temp=1..14}] at @s run summon armor_stand ^-0.1 ^0.1 ^ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["men"],CustomName:'{"text":"\\"Men!\\"","italic":true}'}
+execute as @s[scores={temp=1..14}] at @s positioned ~ ~0.3 ~ run summon armor_stand ^-0.1 ^0.1 ^ {CustomNameVisible:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["men"],CustomName:'{"text":"\\"Men!\\"","italic":true}'}
+execute as @s[scores={temp=1..14}] at @s run data merge entity @s {CustomNameVisible:1b}
+execute as @s[scores={temp=15}] at @s run data merge entity @s {CustomNameVisible:0b}
