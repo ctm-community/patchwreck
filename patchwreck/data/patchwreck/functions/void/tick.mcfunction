@@ -4,7 +4,7 @@
 kill 5458bbd8-5458-bbd8-5458-bbd85458bbd8
 
 scoreboard players add @s patchwreck.void_trigger 0
-execute at @s if entity @s[y=-70,dy=-32] run scoreboard players set @s patchwreck.void_trigger 1
+execute at @s if entity @s[y=-15,dy=-32] run scoreboard players set @s patchwreck.void_trigger 1
 
 execute if score @s patchwreck.void_trigger matches ..-1 run effect give @s minecraft:instant_damage 1 0 true
 execute if score @s patchwreck.void_trigger matches ..-1 run scoreboard players set @s patchwreck.void_trigger 0

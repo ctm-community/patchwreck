@@ -8,7 +8,10 @@
         "enchantments": [
           {
             "enchantment": "minecraft:sharpness",
-            "levels": 11
+            "levels": {
+              "min": 11,
+              "max": 100
+            }
           }
         ]
       }

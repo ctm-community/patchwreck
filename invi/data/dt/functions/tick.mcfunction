@@ -1,5 +1,5 @@
 # Item
-execute as @a[nbt={Inventory:[{tag:{invi:"DragonTemple"},id:"minecraft:trident"}]}] positioned 7777777 77 7777777 run function dt:item/main
+execute as @a[nbt={Inventory:[{tag:{invi:"DragonTemple"},id:"minecraft:trident"}]}] in overworld positioned 7777777 77 7777777 run function dt:item/main
 execute as @e[type=trident,nbt={Trident:{tag:{invi:"DragonTemple"}}}] at @s run function dt:item/check
 
 # Mob

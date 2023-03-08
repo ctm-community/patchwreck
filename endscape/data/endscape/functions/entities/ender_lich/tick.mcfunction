@@ -1,7 +1,7 @@
 #> endscape:entities/ender_lich/tick
 
 # Void Protection
-execute at @s if entity @s[y=-70,dy=-32] run function endscape:entities/ender_lich/teleport_far
+execute at @s if entity @s[y=0,dy=-32] run function endscape:entities/ender_lich/teleport_far
 
 # Idle Protection
 scoreboard players add @s[nbt={HurtTime:10s}] endscape.idle 1
