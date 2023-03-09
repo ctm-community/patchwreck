@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "f": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{co_throngle:1}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

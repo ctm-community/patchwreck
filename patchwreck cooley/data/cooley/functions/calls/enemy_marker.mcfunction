@@ -7,5 +7,6 @@ tag @s remove co_tp_marker
 
 execute unless entity @e[tag=co_tp_target] at @s run function cooley:throngler/spawn
 execute unless entity @e[tag=co_tp_target] run kill @s 
+advancement revoke @a[advancements={minecraft:throngle=true},limit=1] only minecraft:throngle
 
 tag @e remove co_tp_target

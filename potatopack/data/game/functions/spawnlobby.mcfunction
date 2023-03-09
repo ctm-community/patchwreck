@@ -18,6 +18,9 @@ summon armor_stand 1005 49 1006 {CustomNameVisible:0b,NoGravity:0b,Silent:1b,Inv
 summon armor_stand 1005 49 1006 {CustomNameVisible:0b,NoGravity:0b,Silent:1b,Invulnerable:1b,ShowArms:1b,Marker:0b,NoBasePlate:1b,Tags:["compiler","custom20hz","area4"],Pose:{LeftArm:[309f,0f,269f],RightArm:[309f,0f,90f],Head:[350f,0f,0f]},DisabledSlots:4144959,Rotation:[270F,0F],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:13576477}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:3881787}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:3881787}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"Coffee_Cake_"}}],CustomName:'{"text":"Coffee_Cake_","italic":false}'}
 execute as @e[tag=compiler] at @s run tp @s ^ ^ ^-1.2
 
+#reset void return
+data modify storage void:tracking History set value {}
+
 #BATS
 summon bat ~ ~ ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:["custom20hz","area6"],Passengers:[{id:"minecraft:drowned",NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:1b,PersistenceRequired:1b,NoAI:1b,IsBaby:1b,Tags:["custom20hz","area5"],CustomName:'{"text":"orian34","italic":false}',ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"orian34"}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F]}]}
 summon bat ~ ~ ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:["custom20hz","area6"],Passengers:[{id:"minecraft:drowned",NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:1b,PersistenceRequired:1b,NoAI:1b,IsBaby:1b,Tags:["custom20hz","area5"],CustomName:'{"text":"Alen___","italic":false}',ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"Alen___"}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F]}]}
