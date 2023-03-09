@@ -14,7 +14,7 @@ kill 5458bbd8-5458-bbd8-5458-bbd85458bbd8
 execute at @s run playsound minecraft:item.chorus_fruit.teleport player @a ~ ~ ~ 1 1.2
 scoreboard players set @s patchwreck.void_trigger -1
 
-#Kill cooley boots
+# Kill Cornflower Boots
 scoreboard players set temp temp 0
 execute store result score temp temp run clear @s minecraft:leather_boots{co_flower_boots:1}
 execute if score temp temp matches 1.. at @s run playsound minecraft:item.shield.break player @s ~ ~ ~ 1 1

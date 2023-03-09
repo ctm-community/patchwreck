@@ -1,7 +1,6 @@
 #> patchwreck:teleport/aztec
 
 execute in patchwreck:aztec run teleport @s -105 20 -239 90 0
-#execute in patchwreck:aztec run spawnpoint @s -105 20 -239
 
 execute at @s run playsound minecraft:block.portal.travel ambient @s ~ ~ ~ 0.3 2
 

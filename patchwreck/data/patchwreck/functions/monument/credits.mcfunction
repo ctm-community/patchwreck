@@ -44,7 +44,7 @@ execute if score credits patchwreck.timers matches 860 run title @a subtitle {"t
 execute if score credits patchwreck.timers matches 880 run title @a subtitle {"text":"Cooley"}
 execute if score credits patchwreck.timers matches 900 run title @a subtitle {"text":"ZeyD_"}
 
-execute if score credits patchwreck.timers matches 960 run title @a times 20 140 20
+execute if score credits patchwreck.timers matches 960 run title @a times 20 160 20
 execute if score credits patchwreck.timers matches 960 run title @a title {"text":"※ Aztec Ruin ※","color":"green"}
 execute if score credits patchwreck.timers matches 980 run title @a subtitle {"text":"Sequex"}
 execute if score credits patchwreck.timers matches 1000 run title @a subtitle {"text":"sw3aterCS"}
@@ -55,7 +55,7 @@ execute if score credits patchwreck.timers matches 1080 run title @a subtitle {"
 execute if score credits patchwreck.timers matches 1100 run title @a subtitle {"text":"CStruyk24"}
 execute if score credits patchwreck.timers matches 1120 run title @a subtitle {"text":"ZeyD_"}
 
-execute if score credits patchwreck.timers matches 1180 run title @a times 20 180 20
+execute if score credits patchwreck.timers matches 1180 run title @a times 20 260 20
 execute if score credits patchwreck.timers matches 1180 run title @a title {"text":"※ Surreal Architecture ※","color":"gray"}
 execute if score credits patchwreck.timers matches 1200 run title @a subtitle {"text":"orian34"}
 execute if score credits patchwreck.timers matches 1220 run title @a subtitle {"text":"Gizmo"}
