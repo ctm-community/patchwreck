@@ -8,7 +8,7 @@ execute as 5458bbd8-5458-bbd8-5458-bbd85458bbd8 at @s align xyz positioned ~0.5 
 
 effect give @s minecraft:slow_falling 1 0 true
 execute at 5458bbd8-5458-bbd8-5458-bbd85458bbd8 run teleport @s ~ ~ ~
-execute at 5458bbd8-5458-bbd8-5458-bbd85458bbd8 unless block ~ ~-1 ~ #patchwreck:stable run setblock ~ ~-1 ~ minecraft:black_stained_glass
+execute at @s unless block ~ ~-1 ~ #patchwreck:stable run setblock ~ ~-1 ~ minecraft:black_stained_glass
 kill 5458bbd8-5458-bbd8-5458-bbd85458bbd8
 
 execute at @s run playsound minecraft:item.chorus_fruit.teleport player @a ~ ~ ~ 1 1.2
